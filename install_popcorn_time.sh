@@ -4,10 +4,10 @@ mkdir /opt/popcorntime
 tar Jxf Popcorn-Time-* -C /opt/popcorntime
 ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
 echo "[Desktop Entry]" > /usr/share/applications/popcorntime.desktop
-echo "Version = 1.0" > /usr/share/applications/popcorntime.desktop
-echo "Type = Application" > /usr/share/applications/popcorntime.desktop
-echo "Terminal = false" > /usr/share/applications/popcorntime.desktop
-echo "Name = Popcorn Time" > /usr/share/applications/popcorntime.desktop
-echo "Exec = /usr/bin/Popcorn-Time" > /usr/share/applications/popcorntime.desktop
-echo "Icon = /opt/popcorntime/popcorn.png" > /usr/share/applications/popcorntime.desktop
-echo "Categories = Application;" > /usr/share/applications/popcorntime.desktop
+echo "Version = 1.0" >> /usr/share/applications/popcorntime.desktop
+echo "Type = Application" >> /usr/share/applications/popcorntime.desktop
+echo "Terminal = false" >> /usr/share/applications/popcorntime.desktop
+echo "Name = Popcorn Time" >> /usr/share/applications/popcorntime.desktop
+echo "Exec = /usr/bin/Popcorn-Time" >> /usr/share/applications/popcorntime.desktop
+echo "Icon = /opt/popcorntime/popcorn.png" >> /usr/share/applications/popcorntime.desktop
+echo "Categories = Application;" >> /usr/share/applications/popcorntime.desktop
